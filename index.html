@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio - Jason Aguilar</title>
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <div class="sticky-nav difference d-flex justify-content-between">
+        <a href="#inicio"><div class="logo"></div></a>
+      </div>
+    </header>
+    <section class="hero d-flex align-items-center justify-content-center section-shorter" id="inicio">
+      <div class="video-wrap">
+        <video autoplay="" playsinline="" loop="" muted="" id="video-bg">
+          <source src="https://tactusmarketing.com/wp-content/uploads/tactus-waves-hero.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="position-absolute w-100 gradient-overlay"></div>
+      <div class="content position-relative text-center mb-5">
+        <h1 class="hero-title blend">
+          Hi! I'm Jason
+          <br />
+          <span class="hero-title-small">Web Developer</span>
+        </h1>
+      </div>
+    </section>
+    <section class="two" id="projects">
+      <h2>Projects</h2>
+      <section class="cards">
+        <div class="card card--1">
+          <div class="card__img"></div>
+          <a href="https://www.figma.com/file/elm3DUXXHBw02jySMm7BWm/Presentaci%C3%B3n-K%C3%B6lbi?type=design&node-id=0-1&mode=design&t=XatQUUbhrVdkDl3M-0" class="card_link">
+            <div class="card__img--hover"></div>
+            <div class="card__info">
+              <span class="card__category">Design project in Figma</span>
+              <h4 class="card__title">Kölbi's redesign</h4>
+              <p class="card__by">
+                Focused on redesigning
+                <span class="card__author">kolbi</span>, this project aimed to
+                tackle various issues found on the existing website. Using
+                <span class="card__author">Figma</span>, the goal was to
+                enhance the user experience and design for improved
+                functionality.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card card--2">
+          <div class="card__img"></div>
+          <a href="https://lalibertad-cetav.vercel.app/" class="card_link">
+            <div class="card__img--hover"></div>
+            <div class="card__info">
+              <span class="card__category">Next.js and Chakra UI project</span>
+              <h4 class="card__title">CETAV - La Libertad</h4>
+              <p class="card__by">
+                Revamped <span class="card__author">CETAV</span> website with
+                <span class="card__author">Next.js</span> and
+                <span class="card__author">Chakra UI</span>. Improved some of
+                the <span class="card__author">responsive design</span>,
+                <span class="card__author">FAQ</span> section, and introduced
+                <span class="card__author">Airtable</span> for student data.
+                Expanded skills in new tech environments.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card card--3">
+          <div class="card__img"></div>
+          <a href="https://adrianzuniga.mypixieset.com/" class="card_link">
+            <div class="card__img--hover"></div>
+            <div class="card__info">
+              <span class="card__category">Project in Pixieset</span>
+              <h4 class="card__title">Make It Happen</h4>
+              <p class="card__by">
+                Crafted the
+                <span class="card__author">Make It Happen</span> project using
+                <span class="card__author">Pixieset</span>, mastering new
+                tools to meet the specific requirements of a photographer.
+                Seamlessly integrated desired elements for a tailored
+                solution.
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </section>
+    <section class="three section-shorter" id="contact">
+      <h2 class="contact-title">Contact</h2>
+      <div class="contact-wrap">
+        <div class="contact-card">
+          <h3 class="underline">Social Media</h3>
+          <div class="wrapper">
+            <a href="https://www.instagram.com/jasonagnu/" class="button">
+              <div class="icon">
+                <i class="fa fa-instagram"></i>
+              </div>
+              <span class="visually-hidden">Follow me on Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jasonan99/" class="button">
+              <div class="icon">
+                <i class="fa fa-linkedin"></i>
+              </div>
+              <span class="visually-hidden">Visit my Linkedin</span>
+            </a>
+          </div>
+          <div class="mail">
+            <div class="mail-button">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <span class="visually-hidden">Send me an e-mail</span>
+            </div>
+            <p class="email">jasonan99@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3 class="underline">Follow my work</h3>
+          <div class="wrapper">
+            <a href="https://codepen.io/jasonan99" class="button">
+              <div class="icon icons">
+                <i class="fa fa-codepen"></i>
+              </div>
+              <span class="visually-hidden">Visit my Codepen</span>
+            </a>
+            <a href="https://github.com/jasonan99" class="button">
+              <div class="icon icons">
+                <i class="fa fa-github"></i>
+              </div>
+              <span class="visually-hidden">Visit my Github</span>
+            </a>
+          </div>
+          <p class="address">San José, Costa Rica</p>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="four"></section>
+      <section class="five"></section> -->
+  </div>
+  <div class="custom-cursor"></div>
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+</body>
+
+</html>
