@@ -465,8 +465,8 @@ section.three {
 		height: 1150px;
 	}
 	section.hero {
-		min-height: 335px;
-		height: 335px;
+		min-height: 440px;
+		height: 440px;
 	}
 	section.hero::after {
 		display: none;
@@ -474,10 +474,16 @@ section.three {
 	section.hero::before {
 		display: none;
 	}
-	.section-shorter {
-		height: 750px;
+	.hero-title {
+		font-size: 12vw;
 	}
-  .section-shorter .video-wrap {
+	.hero-title-small {
+		font-size: 7vw;
+	}
+	.video-wrap {
+		height: 60vh;
+	}
+  .section-shorter {
     height: 50vh;
   }
 	.sticky-nav .logo {
@@ -528,5 +534,20 @@ section.three {
 	}
 	.address, .email {
 		font-size: 12px;
+	}
+	.wrapper {
+		margin-right: 30px;
+	}
+	.custom-cursor {
+		display: none;
+	}
+
+	@media screen and (max-width: 380px) {
+		h2 {
+			margin-top: 70px;
+		}
+		.video-wrap {
+			height: 70vh;
+		}
 	}
 }
